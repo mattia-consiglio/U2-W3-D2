@@ -75,7 +75,7 @@ deleteBtn.addEventListener('click', () => {
 
 const setTimer = () => {
 	const h = Math.floor(timer / (60 * 60)) + 'h '
-	const m = Math.floor(timer / 60) - parseInt(h) + 'm '
+	const m = Math.floor(timer / 60) - parseInt(h) * 60 + 'm '
 	const s = (timer % 60) + 's'
 	timerText.innerText = `${h}${m}${s}`
 	sessionStorage.setItem('timer', timer)
