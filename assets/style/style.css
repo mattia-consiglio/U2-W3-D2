@@ -1,0 +1,22 @@
+body {
+	min-height: 100vh;
+	min-height: 100svh;
+	display: flex;
+	align-items: center;
+}
+main {
+	width: 100%;
+}
+
+.delete-btn {
+	max-width: 42px;
+}
+
+.btn-group label.btn {
+	text-align: start;
+}
+
+.progress-bars {
+	max-width: 350px;
+	min-width: 350px;
+}

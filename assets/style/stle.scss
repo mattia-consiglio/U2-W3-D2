@@ -1,0 +1,30 @@
+body {
+	min-height: 100vh;
+	min-height: 100svh;
+	display: flex;
+	align-items: center;
+	transition: 300ms;
+}
+main {
+	width: 100%;
+}
+
+.delete-btn {
+	max-width: 42px;
+}
+
+.btn-group label.btn {
+	text-align: start;
+}
+
+.progress-bars {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-radius: 0 !important;
+	.progress {
+		height: 7px;
+		border-radius: 0 !important;
+	}
+}
